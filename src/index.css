@@ -1,0 +1,31 @@
+/* index.css or App.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    -webkit-text-size-adjust: 100%;
+
+}
+
+.navbar{
+    -webkit-transform: skew(-45deg);
+    transform: skew(-45deg);
+    -webkit-transform-origin: top right;
+   
+}
+.navbar-content{
+    -webkit-transform: skew(45deg);
+    transform: skew(45deg);
+}
+.navlinks li:hover{
+    background: rgb(56, 56, 56);
+}
+.navlinks li{
+    padding: 15px;
+}
+.textShadow{
+    text-shadow: 7px 5px 5px rgba(0, 0, 0, 1);
+    
+}
